@@ -1,3 +1,8 @@
+# v0.3
+
+- Added compatibility for Filament v4
+- Updated install docs for Filament v4
+
 # v0.2.6
 
 - Added support for passing a Closure to the `title()`, `description()`, `icon()`, and `url()` methods of `CardItem` object.
