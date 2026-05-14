@@ -50,9 +50,9 @@ composer require kanuni/filament-cards:^0.4
 In an effort to align with Filament's theming methodology you will need to use a custom theme to use this plugin.
 
 > **Note**
-> If you have not set up a custom theme and are using a Panel follow the instructions in the [Filament Docs v3.x](https://filamentphp.com/docs/3.x/panels/themes#creating-a-custom-theme) first. Check it out here for [Filament Docs v4.x](https://filamentphp.com/docs/4.x/styling/overview#creating-a-custom-theme). The following applies to both the Panels Package and the standalone Forms package.
+> If you have not set up a custom theme and are using a Panel follow the instructions in the [Filament Docs v3.x](https://filamentphp.com/docs/3.x/panels/themes#creating-a-custom-theme) first. Check it out here for [Filament Docs v4.x](https://filamentphp.com/docs/4.x/styling/overview#creating-a-custom-theme) and [Filament Docs v5.x](https://filamentphp.com/docs/5.x/styling/overview#creating-a-custom-theme). The following applies to both the Panels Package and the standalone Forms package.
 
-### For Filament v4.x
+### For Filament v4.x and v5.x
 
 Add the plugin's views directory to your `theme.css` file:
 
