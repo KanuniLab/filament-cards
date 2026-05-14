@@ -1,7 +1,14 @@
-# v0.3
+# v1.1
 
-- Added compatibility for Filament v4
-- Updated install docs for Filament v4
+- Added support for Filament v5
+
+# v1.0
+
+- Added support for Filament v4
+
+# v0.4
+
+- Locked Filament version 3
 
 # v0.2.6
 
