@@ -30,7 +30,7 @@
                 </h4>
                 <div x-show="! collapsed" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6">
                 @foreach($items as $item)
-                    <a href="{{ $item->getUrl() }}" @if($item->shouldOpenInNewTab()) target="_blank"@endif @class([
+                    <a href="{{ $item->getUrl() }}" @if($item->shouldOpenInNewTab()) target="_blank"@else wire:navigate @endif @class([
                         'group relative flex flex-col gap-2 p-4 overflow-hidden rounded-xl bg-white text-gray-700 shadow-sm ring-1 ring-gray-950/5',
                         'dark:text-gray-200 dark:divide-white/10 dark:bg-gray-900 dark:ring-white/10',
                         'items-start' => $alignment === $alignmentEnum::Start,
